@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  /* OutsideBox */
+  .top-layer {
+    width: 30%;
+    height: 30rem;
+    margin: 60px auto 300px;
+    padding: 10px;
+    position: relative;
+    background-color: #06304a;
+    border: 5px solid #06304a;
+    border-radius: .5rem;
+    box-shadow: 0 0 20px #A6A6A6;
+  }
+  .signin-form-group {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: fadeIn;
+    animation-fill-mode: both;
+    animation-duration: 1s;
+    
+  }
+  /* Toptext */
+  .label h3{
+    font-size: 180%;
+    text-align: center;
+    color: #a3a3a3;
+    border-bottom: 1px solid #33fe87;
+  }
+  .label {
+    padding: 25px;
+  }
+  .label h3 .login {
+    color: #e6eaed;
+  }
+  .label h3 .signup {
+    color: #57a8cc;
+  }
+  /* Three app buttons */
+  .app-signIn {
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    padding: 1%;
+    text-align: center;
+    background-color: #ffffff;
+    color:#000000;
+    border-radius: 2rem;
+    
+  }
+  /* Email inputbox */
+  .input-control {
+    width: 52%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 110%;
+    padding: 8px 4px 8px 10px;
+  }
+  /* Password inputbox */
+  
+  .password-label {
+    margin-left: 6%;
+  }
+  /* Sign In */
+  .signin-btn.btn-primary.btn-block {
+    width: 30%;
+    margin-top: 5%;
+    padding: 1%;
+    text-align: center;
+    background-color: #33fe87;
+    color:#000000;
+    position: relative;
+    left: 35.5%;
+    border: none;
+  }
+  
+  .signin-btn.btn-primary.btn-block:hover{
+    background-color: #30E98F;
+  }
+  .submit-group {
+    text-align: center;
+  }
+  /* Or Line */
+  .dashline {
+    margin-top: 2%;
+    text-align: center;
+    color: #e6eaed;
+    font-size: 100%;
+  }
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity:1
+    }
+  }
+
+/* Tst */

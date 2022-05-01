@@ -1,0 +1,12 @@
+.con{
+    padding-bottom: 200px;
+}
+.Park{
+    width: 40%;
+    margin: 60px 5% 30px;
+    flex-wrap: wrap;
+    padding: 10px;
+    position: relative;
+    border-style: solid;
+    text-align: center;
+}
